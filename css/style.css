@@ -427,9 +427,15 @@ footer .bottom-footer{margin-top: 10px;}
 .owl-controls .owl-buttons .owl-prev:hover,
 .owl-controls .owl-buttons .owl-next:hover {color: #fff;background: #A3C145;border-color: #A3C145}
 
-.bodycontact{
+.bodycontact .spares{
   display: flex;
   flex-direction: row;
+}
+.spares{
+  justify-content: space-around;
+}
+.spares img{
+  width: 13%;
 }
 
 .bodycontact div{
